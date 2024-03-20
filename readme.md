@@ -1,12 +1,14 @@
-# Body Mass Index (BMI) Calculator
+# BMI Calculator
+BMI : Body Mass Index
 
 ## About
-This program calculates our body mass index (BMI) based on our weight and height, and classifies it into different categories such as underweight, normal, overweight, or obesity classes. 
+This program calculates our body mass index (BMI) based on our weight and height in metric system, and classifies it into different categories such as underweight, normal, overweight, or obesity classes. 
 It also provides appropriate messages for each category. 
 
 ## Usage
-To use this program, simply run it from the command line and follow the prompts to enter your weight and height. Make sure to enter your weight in kilograms and your height in meters.
- Once both values have been entered, the program will calculate your BMI and display the result along with its corresponding category.
+To use this program, simply run it from the command line and follow the prompts to enter your weight and height.
+ Make sure to enter your weight in kilograms and your height in meters.
+ 
 
 Here's an example output:  
 Please enter your weight in kilograms:  
@@ -21,3 +23,4 @@ The program starts by asking the user to input their weight and height. These va
 BMI = weight / (height ^ 2)
 After calculating the BMI, the program uses a series of conditional statements to determine which category the calculated BMI falls into. Based on this information, the program displays the BMI value and its corresponding category.
 
+be healthy😉

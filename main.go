@@ -5,9 +5,9 @@ import (
 	"math"
 )
 
-const underWeightMessage = "You are considered underweight."
-const normalMessage = "Your body mass index is within the healthy range."
-const overWeightMessage = "You are considered overweight."
+const underWeightMessage = "You are underweight."
+const normalMessage = "You are healthy."
+const overWeightMessage = "You are overweight."
 const obeseIMessage = "You are classified as Class I obesity."
 const obeseIIMessage = "You are classified as Class II obesity."
 const obeseIIIMessage = "You are classified as Class III obesity."
@@ -42,7 +42,7 @@ func main() {
 	var weight, height float64
 
 	fmt.Println("Please enter your weight:")
-	_, err := fmt.Scanf("%f", &weight)
+	_, err := fmt.Scanf("%f\n", &weight)
 	checkError(err)
 
 	fmt.Println("Please enter your height:")
